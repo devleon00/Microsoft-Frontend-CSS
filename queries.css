@@ -1,0 +1,31 @@
+@media (max-width: 1350px) {
+  .header__nav-right-ul {
+    display: none;
+  }
+
+  .header__nav-right--mobile {
+    display: inline-block;
+  }
+
+  .header__nav-right--mobile-icon-box {
+    height: 4.8rem;
+    width: 4.8rem;
+    background-color: #3252d0;
+    display: inline-block;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header__nav-right--mobile-icon {
+    height: 80%;
+    color: #fafafa;
+  }
+  .header__nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 5%;
+  }
+}

@@ -6,50 +6,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vaccination</title>
+    <link rel="stylesheet" href="./reusable.css">
     <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="./queries.css" />
 </head>
 
 <body>
     <!-- HEADER -->
-    <header class="header">
+    <header class="header container">
 
         <!-- HEADER-NAV -->
-        <nav class="header__nav">
+        <nav class="header__nav ">
 
             <!-- HEADER-NAV-LOGO-LEFT -->
             <div class="header__nav-left">
                 <a class="a--logo" href="#">Vaccination</a>
-                <ul>
+                <ul class="header__nav-right-ul header__nav-right-ul-alone">
 
                     <!-- HEADER-NAV-LOGO-RIGHT-LI-RIGHT -->
-                    <li class="header__nav-right-li">
+                    <li class="header__nav-right-li header__nav-right-l">
                         <a class="header__nav-right-li-a" href="#">Database</a>
                     </li>
                 </ul>
             </div>
 
-            <!-- HEADER-NAV-LOGO-RIGHT -->
+            <!-- HEADER-NAV-RIGHT -->
             <div class="header__nav-right">
-                <ul>
-                    <!-- HEADER-NAV-LOGO-RIGHT-LI -->
+
+                <!-- HEADER-NAV-LOGO-MOBILE -->
+                <div class="header__nav-right--mobile">
+                    <span class="header__nav-right--mobile-icon-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="header__nav-right--mobile-icon" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </span>
+                </div>
+                <!-- HEADER-NAV-LOGO-RIGHT -->
+                <ul class="header__nav-right-ul">
+
+                    <!-- HEADER-NAV-RIGHT-LI -->
                     <li class="header__nav-right-li">
                         <a class="header__nav-right-li-a" href="#">Education</a>
                     </li>
 
-                    <!-- HEADER-NAV-LOGO-RIGHT-LI -->
+                    <!-- HEADER-NAV-RIGHT-LI -->
                     <li class="header__nav-right-li">
                         <a class="header__nav-right-li-a" href="#">News</a>
                     </li>
 
-                    <!-- HEADER-NAV-LOGO-RIGHT-LI -->
+                    <!-- HEADER-NAV-RIGHT-LI -->
                     <li class="header__nav-right-li">
                         <a class="header__nav-right-li-a" href="#">Regulation</a>
                     </li>
 
-                    <!-- HEADER-NAV-LOGO-RIGHT-LI -->
+                    <!-- HEADER-NAV-RIGHT-LI -->
                     <li class="header__nav-right-li">
-                        <a class="header__nav-right-li-a primary-button" href="#">Hoax Buster</a>
+                        <a class="header__nav-right-li-a primary-button header__nav-right-li-button" href="#">Hoax
+                            Buster</a>
                     </li>
                 </ul>
             </div>

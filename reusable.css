@@ -17,12 +17,17 @@
 }
 
 .description {
+  color: #6d7b93;
+  font-size: 2.8rem;
+  font-weight: 500;
+  padding: 0 5%;
+  line-height: 1.5;
 }
 
 /**** COMPONENTS ****/
 .a--logo {
-  font-size: 3.2rem;
-  font-weight: 700;
+  font-size: 3.8rem;
+  font-weight: 800;
   color: #3252d0;
   text-decoration: none;
   padding-left: 5%;
@@ -44,4 +49,43 @@
   color: #3b5bd9;
   box-shadow: inset 0 0 0 3px #3b5bd9;
   text-decoration: none;
+}
+
+.icon-box {
+  width: 4.2rem;
+  height: 4.2rem;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+/**** DISPLAY ****/
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  align-items: center;
+}
+
+.grid-col-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-cen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

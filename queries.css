@@ -27,5 +27,16 @@
     align-items: center;
     justify-content: end;
     padding: 5%;
+    position: relative;
+  }
+
+  .header__nav-right::after {
+    background-color: #eff8fd;
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    width: 50vw;
+    height: 100%;
+    content: "";
   }
 }

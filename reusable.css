@@ -8,9 +8,15 @@
 
 /**** FONT ****/
 .primary-heading {
+  font-size: 5.2rem;
+  font-weight: 800;
+  color: #1f3e72;
 }
 
 .secondary-heading {
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #1f3e72;
 }
 
 .tertiary-heading {
@@ -21,6 +27,13 @@
   font-size: 2.8rem;
   font-weight: 500;
   padding: 0 5%;
+  line-height: 1.5;
+}
+
+.description-secondary {
+  color: #6d7b93;
+  font-size: 2.2rem;
+  font-weight: 500;
   line-height: 1.5;
 }
 

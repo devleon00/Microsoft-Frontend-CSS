@@ -382,3 +382,92 @@ body {
 .last-accord {
   margin-bottom: 0;
 }
+
+/**** SECTION-EMERGENCY****/
+.section__emergency {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20rem;
+}
+
+.section__emergency--left {
+  padding-left: 5%;
+}
+
+.section__emergency--title {
+  margin-bottom: 2.5rem;
+}
+
+.section__emergency--description {
+  padding: 0;
+  margin-bottom: 10rem;
+}
+
+/**** SECTION-EMERGENCY-BOXES ****/
+
+.section__emergency--boxes {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5%;
+}
+
+.section__emergency--box {
+  padding: 15%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 12px;
+}
+
+.section__emergency--box-title {
+    font-weight: 600;
+}
+
+.section__emergency--box-up {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10%;
+  margin-bottom: 10%;
+}
+
+.section__emergency-icon-box {
+  grid-row: span 2;
+  background-color: #f0f4ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+.section__emergency-icon {
+  width: 90%;
+  height: 70%;
+  color: #3151cf;
+}
+
+.section__emergency--box-description {
+  color: #6d7b93;
+  font-size: 1.8rem;
+}
+
+.section__emergency--box-button:visited,
+.section__emergency--box-button:link {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+  display: inline-block;
+  padding: 2.4rem 0;
+}
+
+
+.section__emergency--right {
+    background-image: url(./men_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 105%;
+    height: 100%;
+    position: relative;
+    left: 10%;
+    bottom: -2.5%;
+}

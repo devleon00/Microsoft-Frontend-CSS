@@ -40,3 +40,36 @@
     content: "";
   }
 }
+
+@media (max-width: 1000px) {
+  /** 9 px **/
+  * {
+    font-size: 56%;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 600px) {
+  /** 8 px **/
+  * {
+    font-size: 50%;
+  }
+
+  .header__nav-left {
+    background-color: #eff8fd;
+    z-index: 2;
+  }
+
+  .header__nav-right {
+    background-color: #eff8fd;
+  }
+
+  .header__nav-right::before {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+}

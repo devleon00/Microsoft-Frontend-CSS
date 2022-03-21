@@ -262,6 +262,7 @@ body {
 .section__should--container-top {
   margin: 0;
   width: 50%;
+
 }
 
 .section__should--title {
@@ -270,7 +271,7 @@ body {
 
 .section__should--description {
   padding: 0;
-  margin-bottom: 2.5rem;
+  margin-bottom: 5rem;
 }
 
 .section__should--container {

@@ -309,3 +309,76 @@ body {
 .section__should-box-description {
   margin-bottom: 10%;
 }
+
+/**** SECTION-PREPARATIONS ****/
+
+.section__preparation-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 20rem;
+}
+
+.section__preparation--left {
+  background-image: url(./woman_img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: -16%;
+}
+
+.section__preparation--right {
+}
+
+.section__preparation--title {
+  margin-bottom: 2.5rem;
+}
+
+.section__preparation--description {
+  padding: 0;
+  margin-bottom: 5rem;
+}
+
+.visible-text.section__preparation--accord-text-box {
+  grid-row: 2;
+  grid-column: 2;
+  margin-bottom: 5%;
+  font-size: 1.8rem;
+}
+
+/**** SECTION-PREPARATIONS-ACCORDION ****/
+
+.section__preparation--right {
+  padding-right: 5%;
+}
+
+.section__preparation--accordions {
+  max-width: 768px;
+  padding-right: 5%;
+}
+
+.section__preparation--accord {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  padding: 2.5% 5%;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 12px;
+  gap: 2.5%;
+  row-gap: 5%;
+  margin-bottom: 5%;
+}
+
+.section__preparation--accord-icon-box {
+  background-color: #f0f4ff;
+}
+
+.section__preparation--accord-icon {
+  color: #2c4cca;
+}
+
+.last-accord {
+  margin-bottom: 0;
+}

@@ -20,6 +20,9 @@
 }
 
 .tertiary-heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #1f3e72;
 }
 
 .description {
@@ -67,7 +70,6 @@
 .icon-box {
   width: 4.2rem;
   height: 4.2rem;
-  display: inline-block;
   display: flex;
   align-items: center;
   justify-content: center;

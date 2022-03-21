@@ -205,7 +205,7 @@
   .section__emergency--boxes {
     padding-right: 5%;
     grid-template-columns: 1fr 1fr;
-    gap: 10%;
+    row-gap: 10%;
   }
 }
 
@@ -229,7 +229,7 @@
     width: 100%;
     height: auto;
     gap: 5%;
-    padding:  20% ;
+    padding: 20%;
   }
 
   .section__head--left-certification {
@@ -249,6 +249,43 @@
 
   .section__emergency--left {
     height: auto;
+  }
+
+  .footer__nav {
+    padding: 10% 5%;
+    gap: 5%;
+  }
+
+  .footer__nav{
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .footer__nav--terms-left-text {
+    padding-left: 0;
+    grid-row: 3 / 5;
+    align-self: center;
+  }
+  .footer__nav-logo {
+    padding-left: 0;
+  }
+
+  .footer__nav--ul {
+    grid-column: span 3;
+  }
+
+  .footer__nav--ul-1 {
+    grid-column: 4;
+  }
+
+  .footer__nav--terms-left-text-1 {
+    grid-column: 4;
+    margin-bottom: 1rem;
+  }
+
+  .footer__nav--terms-left-text-2 {
+    grid-column:4;
+    grid-row: 4;
+    margin-top: 0;
   }
 }
 

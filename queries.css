@@ -39,6 +39,25 @@
     height: 100%;
     content: "";
   }
+
+  .section__emergency--boxes {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5%;
+  }
+
+  .section__emergency--box {
+    padding: 10%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 12px;
+  }
+
+  .section__emergency--box-up {
+    gap: 2.5%;
+  }
+
+  .section__emergency--box-title {
+    font-size: 2.6rem;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -46,12 +65,38 @@
   * {
     font-size: 56%;
   }
+
+  .section__emergency--box-title {
+    font-size: 2.2rem;
+  }
+
+  .section__emergency--box-up {
+    gap: 10%;
+  }
+
+  .section__emergency--box {
+    padding: 10%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 12px;
+  }
 }
 
 @media (max-width: 900px) {
   /** 8 px **/
   * {
     font-size: 50%;
+  }
+
+  .section__emergency--boxes {
+    grid-template-columns: 1fr;
+    gap: 2.5%;
+  }
+
+  .section__emergency--box {
+    padding: 10%;
+    width: 80%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 12px;
   }
 }
 
@@ -144,7 +189,23 @@
     display: grid;
     grid-template-columns: 100%;
     margin-bottom: 20rem;
-    padding: 0 5%;
+    padding-left: 5%;
+  }
+
+  .section__emergency {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-bottom: 20rem;
+  }
+
+  .section__emergency--box {
+    width: 100%;
+  }
+
+  .section__emergency--boxes {
+    padding-right: 5%;
+    grid-template-columns: 1fr 1fr;
+    gap: 10%;
   }
 }
 
@@ -168,7 +229,7 @@
     width: 100%;
     height: auto;
     gap: 5%;
-    padding: 20%;
+    padding:  20% ;
   }
 
   .section__head--left-certification {
@@ -179,6 +240,16 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  .section__emergency--boxes {
+    padding-right: 5%;
+    grid-template-columns: 1fr;
+    gap: 5%;
+  }
+
+  .section__emergency--left {
+    height: auto;
+  }
 }
 
 @media (max-width: 350px) {
@@ -186,7 +257,6 @@
     font-size: 5.8rem;
   }
 }
-
 
 @media (max-width: 320px) {
 }
